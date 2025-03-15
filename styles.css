@@ -1,0 +1,121 @@
+ <style>
+        body {
+            font-family: Times New Roman, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            text-align: center;
+        }
+
+        /* Estilos para el encabezado y la barra de navegación */
+        header {
+            background-color: #f39c12;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #34495e;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        img{
+             width: 200px;
+             height: auto;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #f39c12;
+            text-align: center;
+        }
+
+        /* Estilos para el contenido */
+        .menu {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .pizza-item {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            text-align: center;
+        }
+
+        .pizza-item img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .pizza-item h3 {
+            color: #f39c12;
+            margin-top: 10px;
+        }
+
+        .pizza-item p {
+            color: #555;
+            font-size: 14px;
+        }
+
+        .pizza-item .price {
+            font-size: 18px;
+            font-weight: bold;
+            color: #e74c3c;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #34495e;
+            text-align: center;
+            padding: 10px;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        section {
+            padding: 20px;
+            margin-top: 20px;
+            text-align: center;    
+        }
+
+        h2 {
+            color: #f39c12;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
