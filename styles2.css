@@ -2,13 +2,14 @@
         /* Estilos generales del cuerpo de la página */
         body {
             font-family: 'Roboto', sans-serif;
-            background-color: #f4f4f9; /* Fondo suave */
+            background-color: #f39c12; /* Fondo suave */
             margin: 0;
             padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
+            text-align: center;
         }
 
         /* Estilo para el contenedor del formulario */
@@ -27,12 +28,14 @@
             color: #34495e;
             margin-bottom: 20px;
             font-size: 2em;
+            text-align: center;
         }
 
         h2 {
             color: #333;
             margin-bottom: 10px;
             font-size: 1.1em;
+            text-align: center;
         }
 
         /* Estilo de las etiquetas (labels) */
@@ -42,6 +45,7 @@
             margin-bottom: 5px;
             text-align: left;
             font-size: 1em;
+            text-align: center;
         }
 
         /* Estilo de los campos de entrada (inputs) */
@@ -56,12 +60,14 @@
             font-size: 1em;
             color: #333;
             transition: all 0.3s ease;
+            text-align: center;
         }
 
         input:focus, select:focus {
             border-color: #f39c12; /* Color naranja en el borde al enfocar */
             outline: none;
             background-color: #fff; /* Cambia el fondo a blanco */
+            text-align: center;
         }
 
         /* Estilo del botón */
@@ -75,10 +81,12 @@
             border-radius: 8px;
             width: 100%;
             transition: background-color 0.3s;
+            text-align: center;
         }
 
         button:hover {
             background-color: #f4f4f9; /* Cambio de color cuando el cursor pasa sobre el botón */
+            text-align: center;
         }
 
         /* Estilo de los mensajes o avisos */
@@ -87,5 +95,6 @@
             font-size: 0.9em;
             margin-top: 10px;
             display: none;
+            text-align: center;
         }
     </style>
